@@ -1,3 +1,19 @@
 body {
   font-family: Palatino;
 }
+
+ul {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.blue {
+  background-color: rgb(136, 159, 179);
+  padding: 10%;
+  text-align: center;
+  
+  
+}
